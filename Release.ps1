@@ -2,7 +2,7 @@ $ErrorActionPreference = "Stop"
 
 $SrcDir = "src"
 $DistDir = "dist"
-$Archive = "dist\RS2RotS-Era-Battle-Display.7z"
+$Archive = "dist\RS2RotS-Era-Progress-Display.7z"
 $Tag = "v" + (Get-Date -Format "yyyyMMdd")
 
 if (Test-Path $DistDir) { Remove-Item -Recurse -Force $DistDir }
